@@ -91,3 +91,5 @@ train$Max <- Maximum.tr
 Maximum.vd <- apply(validation[Waps_rd], 1, function(x) names(which.max(x)))
 validation$Max <- Maximum.vd
 
+#test
+
